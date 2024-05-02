@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(142, 37, 37);
+}
+hr{
+    opacity: 0.4;
+}
+/* 轮播图 */
+.lunbo{
+    height: 550px;
+    width: 100%;
+    margin: 100px 0;
+}
+
+
+
+
+/* 推荐和热点画格子 */
+.mbox{
+    width: 1200px;
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.hot,.recommend,.personal{
+    height: 430px;
+    width: 380px;
+    background-color: rgb(248, 252, 255);
+    border: 2px solid rgb(162, 162, 162);
+    border-radius: 5px;
+    padding: 20px;
+}
+.mbox li{
+    display: block;
+    list-style-type: none;
+    line-height: 40px;
+    padding: 10px 0;
+}
+.mbox-hot img{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+.mbox-hot a{
+    color: #4654b5;
+    vertical-align: middle;
+    text-decoration: none;
+}
+h4{
+    display: inline-block;
+}
+.hot a:hover{
+    color: rgb(136, 125, 10);
+}
+.recommend a:hover{
+    color: rgb(136, 125, 10);
+}
+.mbox-recommend img{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+.mbox-recommend a{
+    color: #4654b5;
+    vertical-align: middle;
+    text-decoration: none;
+}
+h2{
+    line-height: 50px;
+}
+/* 创作个人中心 */
+.touxiang img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+.name{
+    font-size: 25px;
+    position: relative;
+    bottom: 25px;
+    left: 10px;
+    color: black;
+}
+.name:hover{
+    color: #4654b5;
+}
+.function img{
+    width: 80px;
+    height: 80px;
+}
+.function li{
+    display: inline-block;
+    margin: 8px 3px;
+    padding: 20px 0 0 10px;
+    line-height: 15px;
+}
+.function-text a{
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    font-weight: 550;
+    border: 1px solid black;
+    background-color: rgb(160, 199, 246);
+    border-radius: 10px;
+}
+.function-text a:hover{
+    background-color: rgb(150, 189, 237);
+}
+/* 文章 */
+.text-more{
+    display: inline-block;
+}
+.more{
+    position: relative;
+    left: 1000px;
+    color: black;
+}
+.more:hover{
+    color: rgb(136, 125, 10) ;
+}
+.text-box{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.text{
+    width: 1200px;
+    background-color: rgb(248, 252, 255);
+    border: 1px solid black;
+    padding: 30px;
+    margin: 10px 30px;
+}
+.text li{
+    width: 90%;
+    margin: 10px 5% 60px 5%;
+    color: black;
+}
+.text-p:hover{
+    color:  rgb(136, 125, 10);
+    cursor: pointer;
+}
+.text-p p{
+    text-indent: 2em;
+    line-height: 25px;
+}
+.text li{
+    list-style-type: none;
+    height: 135px;
+}
+.function-2{
+    margin: 20px 0;
+    height: 31px;
+}
+
+.dianzan:hover{
+    background-color: rgb(160, 199, 246);
+    cursor: pointer;
+}
+.pinglun:hover{
+    background-color: rgb(160, 199, 246);
+    cursor: pointer;
+}
+
+
+ .dianzan, .pinglun{
+     width: 81px;
+     height: 31px;
+     background-color: rgb(179, 213, 255);
+     display: inline-block;
+     border-radius: 5px;
+}
+
+.function-2 img{
+    margin: 3px 28px;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+.video-box{
+    display: flex;
+    justify-content: center;
+}
+.video{
+    margin-bottom: 100px;
+    width: 1200px;
+    background-color: rgb(248, 252, 255);
+    border: 1px solid black;
+    padding: 30px;
+}

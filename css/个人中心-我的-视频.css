@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(42, 42, 42);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(142, 37, 37);
+}
+.box1{
+    padding: 80px 5px;
+    width: auto;
+    height: 1800px;
+}
+/* 左边框 */
+.left-box{
+    width: 300px;
+    height: 1800px;
+    background-color: #fff;
+    border: 1px solid rgb(170, 170, 170);
+    position: absolute;
+    top: 80px;
+    left: 125px;
+    border-radius: 5px;
+}
+/* 头像 */
+h1{
+    margin: 10px 10px 0 10px;
+    color: rgb(0, 0, 0);
+}
+.hr{
+    width: 270px;
+    position: relative;
+    left: 15px;
+}
+.l-box
+{
+    width: 300px;
+    height:150px;
+}
+.touxiang img{
+    width: 120px;
+    height: 120px;
+    border-radius: 90px;
+    display: inline-block;
+    position: relative;
+    margin: 20px;
+}  
+.name{
+    font-size: 25px;
+    position: relative;
+    bottom: 70px;
+    left: 10px;
+} 
+/* 关注粉丝投稿数 */
+.number{
+    width: 80px;
+    height: 40px;
+    margin: 20px 30px;
+    text-align: center;
+    display: inline-block;
+}
+/* 简介 */
+.introduction{
+    width: 260px;
+    height: 70px;
+    margin: 20px;
+    overflow: hidden;
+}
+.function li{
+    width: 250px;
+    height: 35px;
+    margin: 22px;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    background-color: rgb(255, 250, 195);
+    border: 1px solid rgb(233, 233, 173);
+}
+.function a{
+    color: rgb(0, 0, 0);
+}
+.function li:hover{
+    background-color: rgb(239, 235, 185);
+    cursor: pointer;
+}
+/* 分区 */
+.function-2{
+    width: 300px;
+    height: 150px;
+}
+.function-2 li{
+    height: 50px;
+    padding: 15px 100px;
+    letter-spacing: 5px;
+    font-size: 19px;
+    text-align: center;
+}
+.function-2 li:hover{
+    border-bottom: 2px solid rgb(140, 103, 0);
+}
+.video{
+    border-bottom: 2px solid rgb(140, 103, 0) ;
+}
+/* 右边盒子 */
+.right-box{
+    width: 950px;
+    height: 1800px;
+    background-color: #fff;
+    border: 1px solid rgb(170, 170, 170);
+    position: absolute;
+    top: 80px;
+    right: 125px;
+    display: inline-block;
+    border-radius: 5px;
+}
+.right-box h2{
+    padding: 17px 0 5px 30px ;
+}

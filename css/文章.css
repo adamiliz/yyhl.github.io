@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    background-color: rgb(142, 37, 37);
+}
+hr{
+    opacity: 0.3;
+}
+.left-box{
+    background-color: rgb(248, 252, 255);
+    width: 800px;
+    height: 100%;
+    display: inline-block;
+    margin-right: 300px;
+    vertical-align: top;
+    align-items: center;
+    border: 1px solid black;
+}
+.title-box{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.title-box h1{
+    padding: 25px;
+}
+.author-box{
+    height: 80px;
+    width: 790px;
+    background-color: rgb(255, 255, 255);
+}
+.author-box2{
+    width: 800px;
+    padding: 15px;
+    display: flex;
+}
+.author-name {
+    margin: 0 10px;
+}
+.author-box img{
+    width: 50px;
+    height: 50px;
+}
+.author-box2 a{
+    margin: 0 10px;
+}
+.a2{
+    width: 70px;
+    height: 35px;
+    background-color: rgb(255, 250, 195);
+    border: 1px solid rgb(233, 233, 173);
+    text-align: center;
+    line-height: 35px;
+    border-radius: 5px;
+    position: relative;
+    left: 150px;
+    top: 5px;
+}
+.a2:hover{
+    background-color: rgb(233, 233, 173);
+}
+.text-box{
+    margin: 30px;
+    height: 100%;
+    background-color: rgb(250, 253, 255);
+    width: 750px;
+    word-wrap: break-word;
+}
+.text{
+    text-indent: 2em;
+    line-height: 23px;
+}
+/* 右边 */
+.right-box{
+    position: fixed;
+    display: inline-block;
+    top: 80px;
+    right: 180px;
+    width: 320px;
+    height:auto;
+    overflow:auto;
+    vertical-align: top;
+    align-items: center;
+    background-color: #f6f6f6;
+    
+}
+
+
+/* 创作个人中心 */
+
+.touxiang img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}  
+
+.personal{
+    height: auto;
+    overflow: auto;
+    background-color: rgb(248, 252, 255);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.name{
+    font-size: 25px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+} 
+.function img{
+    width: 75px;
+    height: 75px;
+}
+
+.function li{
+    display: inline-block;
+    margin: 8px 3px;
+    padding: 20px 0 0 10px;
+}
+.number{
+    width: 70px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.function-2 li{
+    width: 110px;
+    height: 35px;
+    margin: 15px;
+    padding: 8px;
+    display: inline-block;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(255, 250, 195);
+    border: 1px solid rgb(233, 233, 173);
+}
+.function-2 li a{
+    color: rgb(0, 0, 0);
+}
+.function-2 li:hover{
+    background-color: rgb(239, 235, 185);
+    cursor: pointer;
+}
+/* 热搜榜 */
+
+
+.right-down{
+    overflow: auto;
+    height:auto;
+    background-color: rgb(248, 252, 255);
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
+.right-down a:hover{
+    color: rgb(222, 207, 40);
+}
+
+.new-hot a{
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.new-hot ul li{
+    text-align: left;
+    height: 40px;
+    list-style-type: none;
+   
+
+}

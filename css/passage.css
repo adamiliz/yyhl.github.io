@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ul{
+    padding: 0;
+    margin:0 ;
+}
+
+body{
+    background-color: rgb(142, 37, 37);
+}
+hr{
+    opacity: 0.4;
+}
+
+/* 右边 */
+.right-area{
+    position: fixed;
+    top: 80px;
+    right: 120px;
+    width: 320px;
+    height:auto;
+    overflow:auto;
+
+}
+
+
+/* 创作个人中心 */
+
+.touxiang img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+
+.personal{
+    height: auto;
+    overflow: auto;
+    background-color: rgb(248, 252, 255);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.name{
+    font-size: 25px;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    color: #222;
+} 
+.name:hover{
+    color: #4654b5;
+}
+.function img{
+    width: 75px;
+    height: 75px;
+}
+
+.function li{
+    display: inline-block;
+    margin: 8px 3px;
+    padding: 20px 0 0 10px;
+    line-height: 15px;
+}
+
+
+
+.function-text a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    text-align: 20px;
+    font-weight: 300;
+    border: 1px solid black;
+    background-color: rgb(160, 199, 246);
+    border-radius: 10px;
+}
+.function-text a:hover{
+    background-color: rgb(150, 189, 237);
+}
+
+/* 热搜榜 */
+
+
+.right-down{
+    background-color: rgb(248, 252, 255);
+    border: 1px solid black;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+
+.right-down a:hover{
+    color: rgb(222, 207, 40);
+}
+
+.new-hot a{
+    vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+.new-hot ul li{
+    text-align: left;
+    height: 40px;
+    list-style-type: none;
+}
+.new-hot ul{
+    padding: 5px;
+}
+
+
+/* 文章 */
+.text-leader{
+    overflow: hidden;
+}
+
+.text-leader ul li{
+    float: left;
+    width: 20%;
+    list-style: none;
+
+}
+.text-leader a{
+    color: black;
+}
+.text-leader a:hover{
+    color: #746000;
+}
+.text-box{
+    margin-left: 80px;
+    margin-top: 70px;
+    display: flex;
+    width: 940px;
+}
+
+.text{
+    width: 940px;
+    height:100%;
+    background-color: rgb(248, 252, 255);
+    border: 1px solid black;
+    padding: 30px;
+    margin: 10px 30px;
+}
+
+.text-more{
+    position: relative;
+    top: 10px;
+    right: 10px;
+    display: inline-block;
+    width: 940px;
+    height:auto;
+    overflow: auto;
+    }
+
+.text-more li{
+    width: 90%;
+    list-style-type: none;
+    height: 135px;
+    margin: 10px 5% 50px 5%;
+    color: black;
+}
+.text-p:hover{
+    color:  rgb(136, 125, 10);
+    cursor: pointer;
+}
+
+.function-2{
+    margin: 20px 0;
+    height: 31px;
+}
+
+.dianzan:hover{
+    background-color: rgb(160, 199, 246);
+    cursor: pointer;
+}
+.pinglun:hover{
+    background-color: rgb(160, 199, 246);
+    cursor: pointer;
+}
+
+
+ .dianzan, .pinglun{
+     width: 81px;
+     height: 31px;
+     background-color: rgb(179, 213, 255);
+     display: inline-block;
+     border-radius: 5px;
+}
+
+.function-2 img{
+    margin: 3px 28px;
+    width: 25px;
+    height: 25px;
+}

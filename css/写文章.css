@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(246, 246, 246);
+}
+
+hr{
+    opacity: 0.4;
+}
+
+ul li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration:none;
+}
+hr{
+    width: 1150px;
+}
+/*工具箱*/
+.tool-box{
+    position:fixed;
+    top: 80px;
+    transform:translateX(50px);
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    z-index: 1;
+    border: 1px solid gray;
+}
+.tool-box ul{
+    margin: 20px;
+}
+.tool-box a{
+    color: black;
+}
+/*图片文字全部浮动*/
+.tool-box li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+/*图片大小*/
+.tool-box img{
+    width: 30px;
+    height:30px;
+}
+
+.tool-box li a:hover{
+    color:rgb(185, 135, 37);
+}
+.write-box{
+    margin: 30px;
+}
+/*编辑区域*/
+.write{
+    width: 1200px;
+    height:auto;
+    position: relative;
+    top:180px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border: 1px solid gray;
+}
+.write-title{
+    width: 1000px;
+    height: 80px;
+}
+/*标题*/
+.title{
+    width: 1200px;
+    height: 80px;
+    color: #757575;
+}
+.title:empty:before{
+    content: "请输入标题(最多不超过100字)";
+    color: #757575;
+}
+.title:focus:before{
+    content: none;
+}
+.essay:empty:before{
+    content: "请输入标题(最多不超过100字)";
+    color: #757575;
+}
+.essay:focus:before{
+    content: none;
+}
+/*正文*/
+.essay{
+    width:1200px;
+    height:500px;
+    color: #757575;
+}
+
+[contenteditable="true"] {
+    outline: none;
+  }
+
+
+/*虚线框*/
+.dash-line{
+    width: 150px;
+    height: 150px;
+    border: dashed;
+    vertical-align: middle;
+    border-color: rgb(193, 208, 220);
+}
+
+.line{
+    position: relative;
+    left:200px;
+}

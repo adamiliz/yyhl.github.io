@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(246, 246, 246);
+}
+hr{
+    opacity: 0.4;
+}
+
+ul{
+    list-style: none;
+}
+/*上传视频大框架*/
+.video{
+    margin-top:60px;
+    width:100%;
+}
+
+/*视频加文字中间部分*/
+.request{
+    position:relative ;
+    top: 80px;
+   
+  }
+
+  .Size{
+    font-size: larger;
+  }
+
+/*视频格式*/
+.more-box{
+    position:relative ;
+    bottom: -100px;
+    width: 1200px;
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.box1,.box2,.box3{
+    width: 33%;
+    height: 25%;
+    
+}
+
+/*上传视频按钮*/
+.button{
+    width: 100px;
+    height: 40px;
+    border: 2px solid rgb(196, 186, 85);
+    background-color:  rgb(255, 250, 195);
+    font-weight: 400;
+    font-size: 15px;
+
+  }
+
+  .button:hover{
+    background-color: rgb(239, 235, 185);
+    cursor: pointer;
+}
